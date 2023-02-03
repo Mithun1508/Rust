@@ -12,13 +12,13 @@ The x.py command can be run directly on most Unix systems in the following forma
 ./x.py <subcommand> [flags]
 This is how the documentation and examples assume you are running x.py. Some alternative ways are:
 
-# On a Unix shell if you don't have the necessary `python3` command
+On a Unix shell if you don't have the necessary `python3` command
 ./x <subcommand> [flags]
 
-# On the Windows Command Prompt (if .py files are configured to run Python)
+On the Windows Command Prompt (if .py files are configured to run Python)
 x.py <subcommand> [flags]
 
-# You can also run Python yourself, e.g.:
+You can also run Python yourself, e.g.:
 python x.py <subcommand> [flags]
 More information about x.py can be found by running it with the --help flag or reading the rustc dev guide.
 
