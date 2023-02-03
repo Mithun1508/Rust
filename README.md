@@ -80,12 +80,17 @@ From this terminal, install the required tools:
 # Update package mirrors (may be needed if you have a fresh install of MSYS2)
 pacman -Sy pacman-mirrors
 
-# Install build tools needed for Rust. If you're building a 32-bit compiler,
-# then replace "x86_64" below with "i686". If you've already got Git, Python,
-# or CMake installed and in PATH you can remove them from this list.
-# Note that it is important that you do **not** use the 'python2', 'cmake',
-# and 'ninja' packages from the 'msys2' subsystem.
-# The build has historically been known to fail with these packages.
+Install build tools needed for Rust. If you're building a 32-bit compiler,
+
+Then replace "x86_64" below with "i686". If you've already got Git, Python,
+
+or CMake installed and in PATH you can remove them from this list.
+
+Note that it is important that you do **not** use the 'python2', 'cmake',
+
+and 'ninja' packages from the 'msys2' subsystem.
+
+The build has historically been known to fail with these packages.
 pacman -S git \
             make \
             diffutils \
